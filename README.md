@@ -7,6 +7,8 @@ Michi Zeiringer Portfolio Repo
 - learning Slim/SCSS
 - date: 15.03.15
 
-##
+##Arbeiten an Slimm und SCSS
+
+- date: 09.04.15
 
 
