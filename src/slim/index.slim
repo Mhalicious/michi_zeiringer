@@ -3,8 +3,9 @@ html
   head
     title Michaela Zeiringer
     meta name="keywords" content="template language"
-    meta name="author" content="author"
+    meta name="Matthias Harreither" content="author"
     link href='../css/main.css' rel='stylesheet' type='text/css'
+    link href='../css/1140.css' rel="stylesheet" type='text/css'
 
   body
     h1 Michi Zeiringer
@@ -12,14 +13,65 @@ html
     nav
       ul
         li
-          a href="index.html" Home
+          a href="hochzeiten.html" Hochzeiten
         li
-          a href="contact.html" Contact
+          a href="trauer.html" Trauerfloristik
         li
-          a href="season.html" Season
+          a href="allerheiligen.html" Allerheiligen
+        li
+          a href="weihnachten.html" Weihnachten
+        li
+          a href="graeber.html" Graeber
+        li
+          a href="contact.html" Kontakt
+        li
+          a href="team.html"  Team
+
         
 
     #content
-      p This is a test
-      p yolo
-      p Test 2 
+      //Erste Row mit 3 Bilder
+      .container12
+        .row
+          .column3
+            #bild.-hochzeit 
+              h1 bild 1
+          .column3
+            #bild.-trauer 
+              h1 bild 2
+          .column3
+            #bild3
+              h1 bild 3
+      //Erste Row mit 3 Bilder
+
+      //Zweite Row mit 2 Bilder
+      .container12
+        .row
+          .column6
+            #bild4
+              h1 bild 4
+          .column6
+            #bild5
+              h1 bild 5
+      //Zweite Row mit 2 Bilder
+
+       //Dritte Row mit 3 Bilder
+      .container12
+        .row
+          .column3
+            #bild6 
+              h1 bild 6
+          .column3
+            #bild7 
+              h1 bild 7
+          .column3
+            #bild8
+              h1 bild 8
+      //Dritte Row mit 3 Bilder
+
+      footer
+        | Copyright &copy; #{@year} #{@author}
+
+  
+
+
