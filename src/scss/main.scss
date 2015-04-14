@@ -23,6 +23,9 @@
 /********************************/
 /*Font*/
 
+/*Body*/
+/********************************/
+
 body{
 	background:white;
 	height:100vh;
@@ -41,31 +44,114 @@ h1{
 	font-size:1.2em;
 }
 
-nav ul{
-	display:inline-block;
-	overflow:hidden;
-	margin-top:20px;
-	list-style:none;
+/********************************/
+/*Body*/
 
-	li{
-		display:inline;
+/*Navigation*/
+/********************************/
 
-
-		a{
-			color:blue;
-			font-size:1.5em;
-			text-decoration: none;
-			letter-spacing: 1px;
-			display: inline-block;
-			padding:20px;
-
-			&:hover, &.selected{
-				color:white;
-				background:black
-			}
-		}
-	}	
+.nav-main{
+	margin: 1em 0;
+	margin-left:10vw;
+		ul{
+			display:inline-block;
+			overflow:hidden;
+			margin-top:20px;
+			list-style:none;
+  		}	
+  
+	  	li{
+		    display: inline-block;
 }
+
+.menu{
+	display: none;
+}
+  
+	a{
+		color:blue;
+		font-size:1.2em;
+		text-decoration: none;
+		letter-spacing: 1px;
+		display: inline-block;
+		padding:2vw;
+
+		    &:link{
+		      color: black;
+		      }
+
+		    &:visited{
+		      color: black;
+		      }
+
+		    &:hover{
+		       background: blue;
+		    }
+
+		    &:before{
+		      padding-right: .5em;
+		    }
+	}
+
+//RWD 
+@media only screen and (max-width: 1100px){
+	a{
+		font-size:1.0em;		
+    	padding: .5em 1em;
+    }
+}
+
+// Mobile
+@media (max-width: 900px){
+
+	margin-left:0vw;
+	
+		ul{
+			display: inline-block; // makes it only as wide as it needs to be
+		    vertical-align: top;
+		    position: relative;
+	      		&:hover{
+	        
+	        		li{
+	          			display: block;
+	        		}
+	      		}
+    	}
+
+    li{
+      display: none;
+    }
+
+.menu{
+      display: block;
+      position: relative;
+}
+
+	a{
+		font-size:1.0em;		
+    	padding: .5em 1em;
+    }
+  }
+
+}
+
+a{
+	&:link{
+    	color:blue;
+  	}
+
+  	&:visited{
+    	color: blue;
+  	}
+  	&:hover{
+    	color: blue;
+  	}
+}
+/********************************/
+/*Navigation*/
+
+/*Content*/
+/********************************/	
 
 #content{
 	width:100%;
@@ -132,6 +218,9 @@ nav ul{
 	height:400px;
 	background:green;
 }
+
+/********************************/
+/*Content*/
 
 footer{
 

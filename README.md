@@ -9,6 +9,9 @@ Michi Zeiringer Portfolio Repo
 
 ##Arbeiten an Slimm und SCSS
 
-- date: 09.04.15
+- date: 10.04.15
 
+##Navigation
 
+- date: 14.04.15
+- Beginn von von Responsive! Check bootstrap für media queries
