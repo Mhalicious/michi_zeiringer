@@ -17,8 +17,9 @@
 /*Font*/
 /********************************/
 
-@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,100);
+// @import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
+// @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 
 /********************************/
 /*Font*/
@@ -33,26 +34,35 @@ body{
 	font-size:1.0em;
 	margin: 0;
   	padding: 0;
-  	font-family:"Lato", sans-serif;
+  	font-family:"Roboto Slab", sans-serif;
 }
 
 p{
-	font-size:1.0em;
+	font-size:0.875em; /* 14px/16 = 0.875 */
 }
 
 h1{
-	font-size:1.2em;
+	font-size:2.5em; /* 40px/16 = 2.5 */
+}
+
+h2{
+	font-size:1.875em; /* 30px/16 = 1.875 */
 }
 
 /********************************/
 /*Body*/
+
+header{
+	margin: 0 auto;
+	background:blue;
+}
 
 /*Navigation*/
 /********************************/
 
 .nav-main{
 	margin: 1em 0;
-	margin-left:10vw;
+	margin-left:5vw;
 		ul{
 			display:inline-block;
 			overflow:hidden;
@@ -93,21 +103,31 @@ h1{
 		    }
 	}
 
-//RWD 
-@media only screen and (max-width: 1100px){
+//Responsive Navigation
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1220px){
 	a{
-		font-size:1.0em;		
+		font-size:1.1em;		
     	padding: .5em 1em;
     }
 }
 
-// Mobile
-@media (max-width: 900px){
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 1024px){
+	a{
+		font-size:0.8em;		
+    	padding: .5em 1em;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px){
 
 	margin-left:0vw;
 	
 		ul{
-			display: inline-block; // makes it only as wide as it needs to be
+			display: inline-block;
 		    vertical-align: top;
 		    position: relative;
 	      		&:hover{
@@ -147,6 +167,7 @@ a{
     	color: blue;
   	}
 }
+
 /********************************/
 /*Navigation*/
 
@@ -158,66 +179,13 @@ a{
 	height:100%;
 	min-height:600px;
 	background:white;
-	.container12{
-	    .row{
-	        .column3{
-
-				#bild{
-					width:300px;
-					height:400px;
-					padding: 10px;
-					box-sizing: border-box;
-
-					&.-trauer{
-						background:red;
-					}
-
-					&.-hochzeit{
-						background:blue;
-					}
-				}	
-			}
-		}
+	.pure-u-lg-1-4{
+		overflow: hidden;
+		background: red;
 	}
 }
+		
 
-
-
-#bild3{
-	width:400px;
-	height:400px;
-	background:green;
-}
-
-#bild4{
-	width:600px;
-	height:400px;
-	background:purple;
-}
-
-#bild5{
-	width:600px;
-	height:400px;
-	background:yellow;
-}
-
-#bild6{
-	width:400px;
-	height:400px;
-	background:red;
-}
-
-#bild7{
-	width:400px;
-	height:400px;
-	background:blue;
-}
-
-#bild8{
-	width:400px;
-	height:400px;
-	background:green;
-}
 
 /********************************/
 /*Content*/
