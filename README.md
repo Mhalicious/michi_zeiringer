@@ -1,7 +1,7 @@
 Michi Zeiringer Portfolio Repo
 ===========================
 
-##start with the portfolio
+##Start with the portfolio
 
 - creating files and folders
 - learning Slim/SCSS
@@ -21,3 +21,12 @@ Michi Zeiringer Portfolio Repo
 
 - date: 18.04.15
 - RWD Navigation
+- Grid "Home" Seite
+
+##Hover effects/Grid "Home" Seite
+
+- date: 21.04.15
+- Gridsystem;Borders
+- Contact Section
+- Google Maps
+- Hover
