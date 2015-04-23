@@ -30,3 +30,11 @@ Michi Zeiringer Portfolio Repo
 - Contact Section
 - Google Maps
 - Hover
+
+##Content eingepflegt
+
+- date: 23.04.15
+- Seiten erstellen bis auf "Team"
+- Content eingepflegt
+- Hover auf der Startseite
+
