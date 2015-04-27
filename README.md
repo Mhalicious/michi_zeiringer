@@ -38,3 +38,10 @@ Michi Zeiringer Portfolio Repo
 - Content eingepflegt
 - Hover auf der Startseite
 
+##Startseite bearbeiten
+
+- date: 27.04.15
+- Hover
+- RWD
+
+

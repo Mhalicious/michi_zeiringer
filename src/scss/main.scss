@@ -33,7 +33,6 @@ body{
 	height:100vh;
 	width:100vw;
 	font-size:1.0em;
-	margin: 0;
   	padding: 0;
   	font-family:"Roboto Slab", sans-serif;
 }
@@ -62,8 +61,9 @@ h2{
 
 /*Header*/
 /********************************/
-.header-box{
-	display:table-cell;
+.hbild{
+	margin-left:auto;
+	margin-right:auto;
 }
 /********************************/
 /*Header*/
@@ -71,12 +71,14 @@ h2{
 /*Navigation*/
 /********************************/
 .nav-main{
-	margin: 1em 0;
-	margin-left:5vw;
+	
 		ul{
-			display:inline-block;
+			display: block;
 			overflow:hidden;
 			margin-top:20px;
+			margin-left:auto;
+			margin-right: auto;
+			text-align: center;
 			list-style:none;
   		}	
   
@@ -92,7 +94,6 @@ h2{
 		color:rgb(184,191,3);
 		font-size:1.2em;
 		text-decoration: none;
-		letter-spacing: 1px;
 		display: inline-block;
 		padding: 1.5vw;
 
@@ -187,13 +188,13 @@ a{
 	height:100%;
 	min-height:600px;
 	background:white;
-	
+	margin:0 auto;	
 }
 
 .l-box{
-	padding:0.5em;
-	box-sizing:border-box;
+	padding-left:10em;
 }
+
 /*Hover*/
 /********************************/
 figure {
@@ -206,6 +207,7 @@ figure {
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
+	margin:0;
 }
 
 figure img {
