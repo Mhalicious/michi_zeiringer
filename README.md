@@ -44,4 +44,12 @@ Michi Zeiringer Portfolio Repo
 - Hover
 - RWD
 
+##Startseite Bilder, Startseite, Contact Seite
+
+- date: 28.04.15
+- Lightbox (noch nicht feritf)
+- Kontakt
+- Teamseite
+- Hover geändert
+
 

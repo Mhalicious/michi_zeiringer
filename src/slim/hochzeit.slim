@@ -14,13 +14,20 @@ html
     link href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" rel="stylesheet"
     link href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css" rel="stylesheet"
     //Pure CSS stylesheet
+    
+    //Main CSS
     link href='../css/main.css' rel='stylesheet' type='text/css'
+    link href='../../assets/lightbox/css/lightbox.css' rel='stylesheet' type='text/css'
+    //Main CSS
+
+    //JS and lightbox
+    script src="../../assets/lightbox/js/jquery-1.11.0.min.js"
+    script src="../../assets/lightbox/js/lightbox.min.js"
+    //JS and lightbox
 
   body
     header
-      pure-g
-        .pure-u-1.header-box
-          img.pure-img src="../../assets/img/banner.jpg"
+      img.pure-img.hbild src="../../assets/img/banner.jpg"
 
     /*Navigation*/
     .nav-main
@@ -56,7 +63,9 @@ html
         .pure-u-3-5.l-box
           p Nach eingehender Beratung gestalte ich gerne einen Mustertisch für Sie, damit Sie eine bessere Vorstellung bekommen. Verschiedene Gläser und Vasen stelle ich leihweise zur Verfügung.
         .pure-u-1.l-box
-          img.pure-img src="../../assets/img/hochzeit.jpg"  
+          img.pure-img data-lightbox='image-1' src="../../assets/img/hochzeit.jpg"
+          img.pure-img data-lightbox='image-2' src="../../assets/img/hochzeit.jpg" 
+          img.pure-img data-lightbox='image-3' src="../../assets/img/hochzeit.jpg"  
 
       /*Footer*/
       footer

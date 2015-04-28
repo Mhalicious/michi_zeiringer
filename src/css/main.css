@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Clearfix */
 /********************************/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,100);
@@ -30,6 +31,20 @@ body {
   padding: 0;
   font-family: "Roboto Slab", sans-serif; }
 
+/*Content*/
+/********************************/
+#content_contact {
+  width: 100%;
+  height: 100%;
+  background: white;
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.pure-u-1.l-box a {
+  color: #b8bf03; }
+
+/********************************/
+/*Content*/
 /*Google Maps*/
 /********************************/
 .embed-container {
@@ -59,16 +74,10 @@ body {
   background-color: white;
   text-align: center; }
 
-.test {
-  padding-bottom: 0.5em; }
-
-#formular {
-  padding: 0.5em; }
-
 #form-div {
   height: auto;
-  width: 48vw;
-  position: relative; }
+  position: relative;
+  padding-top: 0.5em; }
 
 .feedback-input {
   opacity: 0.9;
@@ -207,13 +216,15 @@ p {
 @media (max-width: 768px) {
   p {
     font-size: 0.875em; } }
+/*Responsive*/
 h1 {
   font-size: 2.5em;
   /* 40px/16 = 2.5 */ }
 
 h2 {
   font-size: 2em;
-  /* 32px/16 = 2 */ }
+  /* 32px/16 = 2 */
+  padding-left: 0.2em; }
 
 /********************************/
 /*Body*/
@@ -231,6 +242,7 @@ h2 {
   /*Responsive Navigation*/
   /* Large devices (large desktops, 1200px and up) */
   /* Medium devices (desktops, 992px and up) */
+  /* für "feineres" Navi */
   /* Small devices (tablets, 768px and up) */ }
   .nav-main ul {
     display: block;
@@ -239,7 +251,8 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    list-style: none; }
+    list-style: none;
+    padding: 0px; }
   .nav-main li {
     display: inline-block; }
   .nav-main .menu {
@@ -263,6 +276,10 @@ h2 {
       font-size: 1.1em;
       padding: .5em 1em; } }
   @media only screen and (max-width: 1024px) {
+    .nav-main a {
+      font-size: 1em;
+      padding: .5em 1em; } }
+  @media only screen and (max-width: 860px) {
     .nav-main a {
       font-size: 0.8em;
       padding: .5em 1em; } }
@@ -300,11 +317,17 @@ a:hover {
   height: 100%;
   min-height: 600px;
   background: white;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 1200px; }
 
 .l-box {
-  padding-left: 10em; }
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  box-sizing: border-box; }
 
+/********************************/
+/*Content*/
 /*Hover*/
 /********************************/
 figure {
@@ -314,7 +337,6 @@ figure {
   margin: 0px 1%;
   min-width: 30vw;
   width: 48%;
-  background: #3085a3;
   text-align: center;
   cursor: pointer;
   margin: 0; }
@@ -375,10 +397,8 @@ figure.effect-lily img {
   width: -webkit-calc(100% + 50px);
   width: calc(100% + 50px);
   opacity: 0.7;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-40px, 0, 0);
-  transform: translate3d(-40px, 0, 0); }
+  /*Verschieben von Bilder*/
+  /*Verschieben von Bilder*/ }
 
 figure.effect-lily figcaption {
   text-align: left; }
@@ -422,6 +442,9 @@ figure.effect-lily:hover p {
   -webkit-transition-duration: 0.35s;
   transition-duration: 0.35s; }
 
+/*Responsive; without hover for mobile*/
+/* Small devices (tablets, 768px and up) */
+/*Responsive; without hover for mobile*/
 /********************************/
 /*Hover*/
 /********************************/
