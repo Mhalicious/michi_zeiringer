@@ -47,9 +47,18 @@ Michi Zeiringer Portfolio Repo
 ##Startseite Bilder, Startseite, Contact Seite
 
 - date: 28.04.15
-- Lightbox (noch nicht feritf)
+- Lightbox (noch nicht feritg)
 - Kontakt
 - Teamseite
 - Hover geändert
+
+##Startseite Bilder, Startseite, Contact Seite
+
+- date: 29.04.15
+- Lightbox
+- Kontakt
+- Teamseite
+- Hover geändert
+- Bilder kleiner gemacht
 
 
