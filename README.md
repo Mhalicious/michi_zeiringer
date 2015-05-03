@@ -61,4 +61,9 @@ Michi Zeiringer Portfolio Repo
 - Hover geändert
 - Bilder kleiner gemacht
 
+##Transition / Bilder bei Hochzeit
+
+- date: 03.05.15
+- Transition auf 0.2s geändert
+- Bilder für Demo-Zwecke gelassen
 

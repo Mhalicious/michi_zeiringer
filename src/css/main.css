@@ -410,8 +410,8 @@ figure.effect-lily p {
   transform: translate3d(0, 40px, 0); }
 
 figure.effect-lily h2 {
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s; }
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s; }
 
 figure.effect-lily p {
   color: rgba(255, 255, 255, 0.8);
