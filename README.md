@@ -67,3 +67,8 @@ Michi Zeiringer Portfolio Repo
 - Transition auf 0.2s geändert
 - Bilder für Demo-Zwecke gelassen
 
+##Mail
+
+- date: 27.05.15
+- Mailfunktion
+

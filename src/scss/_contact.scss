@@ -103,41 +103,41 @@ body{
 
 /*Icons*/
 /********************************/
-#name{
-  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
+// #name{
+//   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+//   background-size: 30px 30px;
+//   background-position: 11px 8px;
+//   background-repeat: no-repeat;
+// }
 
-#name:focus{
-  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-  background-size: 30px 30px;
-  background-position: 8px 5px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
+// #name:focus{
+//   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+//   background-size: 30px 30px;
+//   background-position: 8px 5px;
+//   background-position: 11px 8px;
+//   background-repeat: no-repeat;
+// }
 
-#email{
-  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
+// #email{
+//   background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+//   background-size: 30px 30px;
+//   background-position: 11px 8px;
+//   background-repeat: no-repeat;
+// }
 
-#email:focus{
-  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
+// #email:focus{
+//   background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+//   background-size: 30px 30px;
+//   background-position: 11px 8px;
+//   background-repeat: no-repeat;
+// }
 
-#comment{
-  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
+// #comment{
+//   background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+//   background-size: 30px 30px;
+//   background-position: 11px 8px;
+//   background-repeat: no-repeat;
+// }
 /********************************/
 /*Icons*/
 
@@ -145,6 +145,7 @@ textarea {
   
   height: 200px;
   line-height: 150%;
+  resize:none;
 }
 
 input:hover, textarea:hover,
@@ -152,7 +153,7 @@ input:focus, textarea:focus {
   background-color:white;
 }
 
-#button-green{
+#button_green{
   font-family:"Roboto Slab", sans-serif;
   float:left;
   width: 100%;
@@ -168,10 +169,10 @@ input:focus, textarea:focus {
   transition: all 0.3s;
 }
 
-#button-green:hover{
-  background-color: rgba(0,0,0,0);
-  color: rgb(184,191,3);
-}
+// #button_green:hover{
+//   background-color: rgba(0,0,0,0);
+//   color: rgb(184,191,3);
+// }
   
 .submit:hover {
   color: #3498db;
