@@ -218,6 +218,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/team.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.14886e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/team.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/team.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/trauer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -247,6 +258,39 @@
 		"initialSize": 389507,
 		"inputAbbreviatedPath": "\/assets\/img\/trauer2.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/trauer2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/weihnachten1.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8.83268e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/weihnachten1.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/weihnachten1.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/weihnachten2.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8.28749e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/weihnachten2.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/weihnachten2.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/weihnachten3.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9.18694e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/weihnachten3.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/weihnachten3.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -72,3 +72,7 @@ Michi Zeiringer Portfolio Repo
 - date: 27.05.15
 - Mailfunktion
 
+##Bild uploads und in Github geaddet
+
+- date: 19.09.16
+- 
