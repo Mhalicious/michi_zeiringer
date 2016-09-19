@@ -75,4 +75,3 @@ Michi Zeiringer Portfolio Repo
 ##Bild uploads und in Github geaddet
 
 - date: 19.09.16
-- 
