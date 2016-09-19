@@ -1,7 +1,11 @@
 @charset "UTF-8";
-/* Clearfix */
+/*Font*/
 /********************************/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,100);
+/********************************/
+/*Font*/
+/* Clearfix */
+/********************************/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,100);
 .clearfix:before,
 .clearfix:after {
@@ -16,10 +20,6 @@
 
 /********************************/
 /* Clearfix */
-/*Font*/
-/********************************/
-/********************************/
-/*Font*/
 /*Imports*/
 /********************************/
 body {
@@ -158,6 +158,9 @@ input:focus, textarea:focus {
     padding-right: 0.5em; } }
 /*Imports*/
 /********************************/
+.pure-g [class*="pure-u"] {
+  font-family: "Roboto Slab", sans-serif; }
+
 /*Body*/
 /********************************/
 body {
@@ -356,6 +359,8 @@ figure.effect-lily img {
   max-width: none;
   width: calc(100% + 50px);
   opacity: 0.7;
+  -webkit-transition: opacity .2s ease-in;
+  transition: opacity .2s ease-in;
   /*Verschieben von Bilder*/
   /*Verschieben von Bilder*/ }
 
@@ -377,13 +382,17 @@ figure.effect-lily p {
 
 figure.effect-lily h2 {
   -webkit-transition: -webkit-transform 0.2s;
-  transition: transform 0.2s; }
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s; }
 
 figure.effect-lily p {
   color: white;
   opacity: 0;
   -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
-  transition: opacity 0.2s, transform 0.35s; }
+  transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s, -webkit-transform 0.35s; }
 
 figure.effect-lily:hover img,
 figure.effect-lily:hover p {
@@ -436,6 +445,7 @@ footer {
   border: solid;
   border-color: white;
   height: 90px;
+  width: 100%;
   color: #fff;
   text-align: center;
   padding-top: 10px; }
