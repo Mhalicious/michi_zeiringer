@@ -47,7 +47,7 @@ Michi Zeiringer Portfolio Repo
 ##Startseite Bilder, Startseite, Contact Seite
 
 - date: 28.04.15
-- Lightbox (noch nicht feritg)
+- Lightbox (noch nicht fertig)
 - Kontakt
 - Teamseite
 - Hover geändert
@@ -75,3 +75,11 @@ Michi Zeiringer Portfolio Repo
 ##Bild uploads und in Github geaddet
 
 - date: 19.09.16
+
+##Bilder angepasst und eingebunden
+
+- date: 26.09.16
+- Team und Weihnachtsbilder angepasst und eingebunden
+- Verlinkung auf der index.html File angepasst
+- Hochzeit Überschrift angepasst
+- Menü angepasst
