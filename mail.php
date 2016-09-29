@@ -25,18 +25,18 @@ if ( $checkName && $checkEmail && $checkText )
 
     $mail->From = $email;
     $mail->FromName = $name;
-    $mail->addAddress('mhacoding@gmail.com', 'mhacoding');
+    $mail->addAddress('floristik_zeiringer@hotmail.com', 'FloristikZeiringer');
     $mail->isHTML(true);
 
     $mail->Subject = 'Anfrage von ' . $name;
     $mail->Body    = '<style>p{color:blue;}</style>This is the HTML message body <b>in bold!</b><p>' . htmlspecialchars($text) . '</p>';
-    
 
-    if ( ! $mail->send() ) 
+
+    if ( ! $mail->send() )
     {
         $response['msg'] = $mail->ErrorInfo;
-    } 
-    else 
+    }
+    else
     {
         $response['error'] = 0;
         $response['msg']   = 'Message has been sent.';
@@ -51,18 +51,18 @@ else
     $isTextValid  = true;
 
 
-    if ( ! $checkName ) 
+    if ( ! $checkName )
     {
         $isNameValid = false;
         $msg = 'Invalid name.';
     }
-    
+
     if ( ! $checkEmail )
     {
         $isEmailValid = false;
         $msg = 'Invalid email.';
     }
-    
+
     if ( ! $checkText )
     {
         $isTextValid = false;
